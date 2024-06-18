@@ -3,8 +3,14 @@
   padding: 0px;
   margin: 0px;
 }
-
-
+.cards_elem{
+  padding: 15px;
+  margin: 0px;
+}
+.features_elem{
+  padding: 0px;
+  margin: 10px;
+}
 .dev-1{
   margin-top: 20px;
   display: flex;
@@ -30,16 +36,22 @@
 .president img{
   border: 4px solid white;
 }
+.form-elem{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 /*form*/
 .contact-form{
   background: #fff;
-  width: 70%;
 }
 .contact-form .form-control{
   border-radius:1rem;
 }
 .contact-form form{
-  padding: 14%;
+  padding: 10%;
 }
 .contact-form form .row{
   margin-bottom: -7%;
