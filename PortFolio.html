@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
+      body{
+        background:linear-gradient(rgb(184, 242, 181),rgba(198, 108, 212, 0.719));
+      }
    #services{
     margin:34px;
     display: flex;
@@ -18,6 +21,10 @@
     flex-wrap: wrap;
 
 }
+.h-secondary{
+  color: rgb(32, 2, 60);
+  font-weight: bold;
+}
 
 #services .box{
     margin: 20px;
@@ -27,10 +34,13 @@
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    background: linear-gradient(to right ,rgb(224, 211, 211), rgb(217, 252, 110));
-    width:350px;
+    background: linear-gradient(to right ,rgb(236, 161, 23), rgba(215, 73, 73, 0.773));
+    width:330px;
     font-weight: bold;
     flex-direction: column;
+    color: white;
+    height:510px;
+    width: 300px;
 }
 
 #services .box img{ 
@@ -52,10 +62,7 @@
     flex-wrap: wrap;
 
 }
-.box{
-  margin-top: 80px;
-    padding: 12px 15px;
-}
+
 .h-primary{
   display: block;
   text-align: center;
@@ -76,7 +83,7 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+    border-radius: 10px;
 }
 .certificates .box{
   width: 410px;
@@ -90,11 +97,47 @@ border-radius: 10px;
   justify-content: center;
 }
 .certificates img:hover{
-  transform: scale(1.6);
+  transform: scale(1.2);
   transition: 0.5s all ease;
   animation: anim1 2s linear infinite;
+  border-radius: 10px;
+}
+.logo_container {
+    margin-left: 4%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: bold;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  
+   
+}
+.logo_container img{
+  width: 100px;
+  height: 100px;
+}
+.b-name{
+margin-top: -30px;
+font-weight: 900;
+text-align: center;
+background:linear-gradient(to left, rgb(148, 255, 8),rgb(16, 199, 249));
+color: transparent;
+ -webkit-background-clip: text; 
+ text-shadow: 0 0 60px rgba(255, 0, 0, 0.406);
+ animation: anime 1s infinite alternate;
+ transition: all ease 0.5s;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-bottom: 15PX;
 }
 
+@keyframes anime{
+    100%{
+        text-shadow: 0 0 60px rgba(0, 0, 255, 0.401);
+    }
+}
     </style>
 </head>
 <body>
@@ -112,7 +155,13 @@ border-radius: 10px;
 
     <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Never expand</a>
+          <a class="navbar-brand" href="index.html">
+            <div class="logo_container">
+              <img class="movie_deko_home" src="img/amazonlogo.jpg" alt="movie_deko Home"
+              />
+              <div class="b-name">EPICBYTE</div>
+            </div>
+          </a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -185,36 +234,38 @@ border-radius: 10px;
     <h1 class="h-primary center"><u>TECHNOLOGIES THAT WE USE</u></h1>
     <div id="services">
         <div class="box">
-            <img src="img/image4.jpg" alt="error">
-            <h2 class="h-secondary center">Food Ordering</h2>
-            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi autem eius quam a similique officiis neque libero! Cum voluptatem eius deserunt optio, repellendus mollitia molestias quos velit dignissimos libero, ex distinctio quo cupiditate!</p>
+            <img src="img/html.jpg" alt="error">
+            <h2 class="h-secondary center">HTML5</h2>
+            <p class="center">"EpicByte Web Solutions" is dedicated to revolutionizing online experiences through innovative HTML5-based web design. Our team excels in creating captivating websites that seamlessly integrate HTML5 technology to ensure optimal performance and user engagement. EpicByte Web Solutions is committed to delivering tailor-made solutions that elevate your online presence.</p>
         </div>
 
         <div class="box">
-            <img src="img/image6.jpg" alt="error">
-            <h2 class="h-secondary center">Home delivery</h2>
-            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi autem eius quam a similique officiis neque libero! Cum voluptatem eius deserunt optio, repellendus mollitia molestias quos velit dignissimos libero, ex distinctio quo cupiditate!</p>
+            <img src="img/css-logo.jpg" alt="error">
+            <h2 class="h-secondary center">CSS</h2>
+            <p class="center">"EpicByte Web Solutions" is at the forefront of transforming online aesthetics through advanced CSS (Cascading Style Sheets) technology. We blend artistic flair with technical proficiency to create websites that are not only visually appealing but also highly functional and responsive across all platforms. </p>
         </div>
 
         <div class="box">
-            <img src="img/image5.jpg" alt="error">
-            <h2 class="h-secondary center">Catering Services</h2>
-            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi autem eius quam a similique officiis neque libero! Cum voluptatem eius deserunt optio, repellendus mollitia molestias quos velit dignissimos libero, ex distinctio quo cupiditate!</p>
+            <img src="img/js.png" alt="error">
+            <h2 class="h-secondary center">JAVA SCRIPT</h2>
+            <p class="center">"EpicByte Web Solutions" pioneers dynamic web experiences through cutting-edge JavaScript (JS) technology.  Our team combines creativity with technical expertise to develop websites that are not only visually stunning but also feature-rich and seamlessly functional across devices. Partner with us to unlock the full potential of your digital presence with EpicByte JS Solutions.</p>
         </div>
         <div class="box">
-            <img src="img/image5.jpg" alt="error">
-            <h2 class="h-secondary center">Catering Services</h2>
-            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi autem eius quam a similique officiis neque libero! Cum voluptatem eius deserunt optio, repellendus mollitia molestias quos velit dignissimos libero, ex distinctio quo cupiditate!</p>
+            <img src="img/figma-logo.jpg" alt="error">
+            <h2 class="h-secondary center">FIGMA</h2>
+            <p class="center">EpicByte Web Solution specializes in innovative web solutions, leveraging the power of Figma technologies to create exceptional user experiences. Our team is dedicated to delivering top-quality design and development services tailored to meet your needs.</p>
         </div>
         <div class="box">
-            <img src="img/image5.jpg" alt="error">
-            <h2 class="h-secondary center">Catering Services</h2>
-            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi autem eius quam a similique officiis neque libero! Cum voluptatem eius deserunt optio, repellendus mollitia molestias quos velit dignissimos libero, ex distinctio quo cupiditate!</p>
+            <img src="img/bootstrap.jpg" alt="error">
+            <h2 class="h-secondary center">BOOTSTRAP</h2>
+            <p class="center">"EpicByte Web Solutions" leads the way in modern web development with Bootstrap, a powerful front-end framework.  Our team blends design finesse with technical proficiency to create websites that are not only visually appealing but also intuitive and adaptive across all devices. Partner with us to maximize your digital impact with EpicByte Bootstrap Solutions.</p>
         </div>
         <div class="box">
-            <img src="img/image5.jpg" alt="error">
-            <h2 class="h-secondary center">Catering Services</h2>
-            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi autem eius quam a similique officiis neque libero! Cum voluptatem eius deserunt optio, repellendus mollitia molestias quos velit dignissimos libero, ex distinctio quo cupiditate!</p>
+            <img src="img/react.jpg" alt="error">
+            <h2 class="h-secondary center">REACT</h2>
+            <p class="center">EpicByte Web Solution specializes in innovative web solutions, leveraging the power of React to create dynamic and responsive user interfaces. Our team is dedicated to delivering top-quality design and development services tailored to meet your needs.
+
+            </p>
         </div>
     </div>    
     </section>
@@ -231,6 +282,18 @@ border-radius: 10px;
     <div class="box"><img src="img/certificate6.jpg" alt="Error"></div>
   </div>
 
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="services.html" class="nav-link px-2 text-body-secondary">Services</a></li>
+        <li class="nav-item"><a href="price.html" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="faq.html" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© EPICBYTE WEB SOLUTIONS</p>
+    </footer>
+  </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
     </html>
