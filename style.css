@@ -14,11 +14,11 @@ margin-left: 5px;
   height: 60px;
   margin-bottom: 10px;
  margin-top: 8px;
- 
+
 }
 .logo_container img{
-  width: 100px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   margin: 5px;
 }
@@ -28,7 +28,11 @@ font-size: 1.1rem;
 letter-spacing: 1px;
 font-weight: bold;
 text-align: center;
+<<<<<<< HEAD
 background:linear-gradient(to left, rgb(209, 215, 205),rgb(63, 180, 234));
+=======
+background:linear-gradient(to left, #2C69D1,#0ABCF9);
+>>>>>>> 775a41a180de7ae77093c273614de4d667b361ac
 color: transparent;
 -webkit-background-clip: text; 
 text-shadow: 0 0 60px rgba(255, 0, 0, 0.406);
