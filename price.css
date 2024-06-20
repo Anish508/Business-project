@@ -1,8 +1,5 @@
-/*price cards*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Domine:700');
-
-
 .price-sec{
 	width: 100%;
 	height: 100%;
@@ -143,3 +140,54 @@
 .card a:hover{
 	text-decoration: none;
 }
+
+/*
+ul{
+	list-style: none;
+	background-color: #eee;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	animation: rotate-rose 3s infinite;
+	
+}
+ul li{
+	font-size: 190px;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	
+}
+ul li:nth-child(1){
+	color: #FAE166;
+	
+}
+ul li:nth-child(2){
+	color: #EBC048;
+	top:0px;
+	transform: rotate(90deg);
+	animation: 3s;
+
+}
+ul li:nth-child(3){
+	color: #FF6600;
+	transform: scale(.7,.7);
+	animation: 4s.
+}
+
+@keyframes rotate-rose{
+	25%{
+		transform: rotate(45deg);
+	}
+	50%{
+		transform: rotate(90deg);
+	}
+		75%{
+		transform: rotate(180deg);
+	}
+		100%{
+		transform: rotate(270deg);
+	}
+}
+*/
