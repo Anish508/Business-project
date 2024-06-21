@@ -11,7 +11,7 @@ function loader(){
   tl.to("#loader h3",{
     opacity:0,
     x:-10,
-    duration:1,
+    duration:1.5,
     stagger:0.1
   })
   
