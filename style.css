@@ -4,6 +4,25 @@
   margin: 0px;
 
 }
+
+#loader{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index:99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#loader h3{
+  font-size: 2vw;
+  color: white;
+  font-weight: 100;
+}
+
 .logo_container {
 
   display: flex;
