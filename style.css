@@ -17,15 +17,9 @@
   gap: 10px;
 }
 #loader h3{
-  font-size: 2rem;
-  background: linear-gradient(to left, rgb(209, 215, 205), rgb(63, 180, 234));
-  background: linear-gradient(to left, #2c69d1, #0abcf9);
-  color: transparent;
-  -webkit-background-clip: text;
-  text-shadow: 0 0 60px rgba(255, 0, 0, 0.406);
-  animation: anime 1s infinite alternate;
-
-  font-weight: 600;
+  font-size: 2vw;
+  color: #2c69d1;
+  font-weight: 200;
 }
 
 .logo_container {
